@@ -128,7 +128,7 @@ export class Highlight extends Mark {
 
         for (var attr in this.attributes) {
           if (this.attributes.hasOwnProperty(attr)) {
-            this.element.setAttribute(attr, this.attributes[attr]);
+          //  this.element.setAttribute(attr, this.attributes[attr]);
           }
         }
 
